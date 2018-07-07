@@ -1,0 +1,81 @@
+DevOPS:
+
+To over come draw backs of agile(SDLC)/waterfall model.
+It will fill the gap b/w developer and operator thorugh communication.
+
+
+Tools:
+GIT/GIThub-->Version control Tool
+Maven-->Build Tool
+Apache Tomcat-->Web server
+Zenkins-->CI(continuous Integration Tool)
+Docker-->Containerioused tool
+
+GIT/GIThub:
+Distributing/Dengerated Version control tool
+					Push/Pull
+Central repository<--------------->Local Repository-->Files(user will add files to Statging area/INDEX by giving GIT ADD command, Once user give commit it will store in local repository), To add those files from LR to CR give command GIT PUSH.
+
+
+Creation of Local repository command is GIT INIT
+
+
+To 
+
+To save files in LR:
+GIT commit -m "msg"
+
+
+To save files in Remote repository(Central R):
+GIT Push /u original master
+GIT pull filname
+
+Branches:
+GIT branch branchname
+GIT checkout branchname(commit particular branch)
+
+Diff b/w SVN & GIT:
+
+SVN: Centralised
+
+GIT Practise:
+1.Create one file and Here I created in my desktop, Go to that path :
+$ cd /C/Users/130392/Desktop/
+
+130392@INDSBLR8B2YD02 MINGW64 /C/Users/130392/Desktop (master)
+
+2.Add that file with <file name>
+$ git add <file_Name>
+
+3. Check that file name is added to stage area:
+130392@INDSBLR8B2YD02 MINGW64 /C/Users/130392/Desktop (master)
+$ git add status
+
+
+4.$ git commit -m "My first commit"
+
+5. Create GIThub account
+git config --global --edit
+git config --global user.name "AswiniBalaka"
+git config --global user.mail "balaka.aswini@gmail.com"
+git push -u origin master
+
+6.
+
+
+
+merge conflict
+
+GIT merge branchname
+
+
+branch1-->commmit
+
+
+
+
+
+
+
+
+https://github.com/AswiniBalaka/Aswini.git
